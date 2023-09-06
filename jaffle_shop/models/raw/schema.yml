@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: Data from DBT-Labs BigQuery public dataset.
+    database: dbt-tutorial
+    schema: jaffle_shop
+    tables:
+      - name: orders
+        description: A raw table containing all the orders made at jaffle-shop.
+      - name: customers
