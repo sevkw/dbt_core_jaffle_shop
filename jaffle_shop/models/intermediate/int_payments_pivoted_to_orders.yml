@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: int_payments_pivoted_to_orders
+    description: A intermediate table that aggregates payment amount for each payment method by order.
+    columns:
+      - name: order_id
+      - name: bank_transfer_amount
+      - name: credit_card_amount
+      - name: coupon_amount
+      - name: gift_card_amount
+      - name: total_amount

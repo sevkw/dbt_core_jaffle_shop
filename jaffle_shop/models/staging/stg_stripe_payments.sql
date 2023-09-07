@@ -4,7 +4,7 @@ SELECT
     , paymentmethod AS payment_method
     , CASE
         WHEN paymentmethod IN ('stripe', 'paypal', 'credit_card', 'gift_card') THEN 'credit'
-        ELSE 'case'
+        ELSE 'cash'
         END AS payment_type
     , status AS payment_status
     , amount AS amount_cents
