@@ -29,22 +29,22 @@ I found this [YouTube video](https://youtu.be/0f3moPe_bhk?feature=shared) to be 
 
 Since the focus for this project is on dbt, so for the data part I just used the easiest way: using what's available from dbt lab's jaffle-shop data in BigQuery.
 
-Tutorials for setting up Bigquery here: https://docs.getdbt.com/quickstarts/bigquery?step=2
+Tutorials for setting up Bigquery [here](https://docs.getdbt.com/quickstarts/bigquery?step=2)
 
 Per DBT labs, the Jaffle Shop source data are:
 
 1. A replica of our transactional database, called jaffle_shop, with core entities like orders and customers.
 2. Synced data from Stripe, which we use for processing payments.
 
-(reference: https://docs.getdbt.com/guides/best-practices/how-we-structure/1-guide-overview#guide-structure-overview)
+[Reference](https://docs.getdbt.com/guides/best-practices/how-we-structure/1-guide-overview#guide-structure-overview)
 
 Follow the reference above to get an ideal of how the end product of this project will be organized.
 
 ## :apple:More on Jaffle Shop Data
 
-This git-hub repo contains all raw data (csv) that can be used for seed files: https://github.com/dbt-labs/jaffle-shop-data
+[This git-hub repo](https://github.com/dbt-labs/jaffle-shop-data) contains all raw data (csv) that can be used for seed files.
 
-This repo is the official jaffle-shop dbt project: https://github.com/dbt-labs/jaffle_shop-dev/tree/master
+[This repo](https://github.com/dbt-labs/jaffle_shop-dev/tree/master) is the official jaffle-shop dbt project.
 
 # :book:Useful References
 
