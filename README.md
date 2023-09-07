@@ -13,7 +13,7 @@ Here are the resources I found helpful and I recommend **follow them in order**:
 2. Read the dbt best practices page and improve your `jaffle_shop` dbt project following [this guide](https://docs.getdbt.com/guides/best-practices)
     - at the end, your `jaffle_shop` project should look a lot different from the version you have upon finishing step 1
     - recommending reading the best practices guide first before following along with coding in the dbt project as the guide is just a guide but not a hard subscription. This means you get to make the decision on how to format and organize your project.
-      - especially in the organization section the guide started off introducing a staging >> intermediate >> mart, but later on recommended a [semantic layer practice](https://docs.getdbt.com/guides/best-practices/how-we-structure/5-semantic-layer-marts). For my project here, I use the semantic layer structure to organize my files (as my current company also follows this strictly)
+      - for example: in the organization section the guide started off introducing a staging >> intermediate >> mart, but later on recommended a [semantic layer practice](https://docs.getdbt.com/guides/best-practices/how-we-structure/5-semantic-layer-marts). **For my project here, I use the semantic layer structure to organize my files (as my current company also follows this strictly)**
   
 3. Take a step back and reflect. What are the improvements can you make? Add some personal tweaks to the project. 
 
