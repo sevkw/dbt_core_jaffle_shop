@@ -10,6 +10,7 @@ packages = [{include = "dbt_core_jaffle_shop"}]
 python = "^3.10"
 dbt-core = "^1.6.1"
 dbt-bigquery = "^1.6.4"
+pre-commit = "^3.4.0"
 
 
 [build-system]
