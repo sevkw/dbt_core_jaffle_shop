@@ -5,9 +5,9 @@
 [0m14:01:06.086117 [info ] [MainThread]: Running with dbt=1.6.1
 [0m14:01:06.088116 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\kerry\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init jaffle_shop', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
 [0m14:01:06.089117 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/kerry/.dbt')}
-[0m14:01:06.090118 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:01:06.090118 [info ] [MainThread]: Creating dbt configuration folder at
 [0m14:01:06.092116 [debug] [MainThread]: Starter project path: D:\E\dbt_core_jaffle_shop\.venv\lib\site-packages\dbt\include\starter_project
-[0m14:01:06.163116 [info ] [MainThread]: 
+[0m14:01:06.163116 [info ] [MainThread]:
 Your new dbt project "jaffle_shop" was created!
 
 For more information on how to configure the profiles.yml file,
@@ -38,7 +38,7 @@ Happy modeling!
 Runtime Error
   No dbt_project.yml found at expected path D:\E\dbt_core_jaffle_shop\dbt_project.yml
   Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
-  
+
 [0m15:04:05.632281 [debug] [MainThread]: Command `dbt run` failed at 15:04:05.632281 after 0.03 seconds
 [0m15:04:05.633288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6FF88E890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D68223B400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D68223B6D0>]}
 [0m15:04:05.634285 [debug] [MainThread]: Flushing usage events
@@ -52,7 +52,7 @@ Runtime Error
 Runtime Error
   No dbt_project.yml found at expected path D:\E\dbt_core_jaffle_shop\dbt_project.yml
   Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
-  
+
 [0m15:04:34.752658 [debug] [MainThread]: Command `dbt run` failed at 15:04:34.751654 after 0.03 seconds
 [0m15:04:34.752658 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F22362860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F2147B310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F2147B640>]}
 [0m15:04:34.753671 [debug] [MainThread]: Flushing usage events
@@ -66,7 +66,49 @@ Runtime Error
 Runtime Error
   No dbt_project.yml found at expected path D:\E\dbt_core_jaffle_shop\dbt_project.yml
   Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
-  
+
 [0m17:21:35.474562 [debug] [MainThread]: Command `dbt compile` failed at 17:21:35.474562 after 0.03 seconds
 [0m17:21:35.475545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027ADAD8E8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AD9EAB3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AD9EAB700>]}
 [0m17:21:35.475545 [debug] [MainThread]: Flushing usage events
+[0m21:34:36.142800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFB1BE8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFA2BB730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFA2BB550>]}
+
+
+============================== 21:34:36.183880 | 8d7bd116-33a4-4cab-8047-ae2157b30b07 ==============================
+[0m21:34:36.183880 [info ] [MainThread]: Running with dbt=1.6.1
+[0m21:34:36.184895 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\kerry\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:34:36.185893 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\E\dbt_core_jaffle_shop\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+
+[0m21:34:36.186893 [debug] [MainThread]: Command `dbt docs generate` failed at 21:34:36.186893 after 0.08 seconds
+[0m21:34:36.187893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFB1BE8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFA2BB460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFA2BB790>]}
+[0m21:34:36.188902 [debug] [MainThread]: Flushing usage events
+[0m21:36:42.327370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296FEFDE830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002968195B6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002968195B460>]}
+
+
+============================== 21:36:42.332388 | 5c742a8e-39bf-40a5-9160-dbecf029649d ==============================
+[0m21:36:42.332388 [info ] [MainThread]: Running with dbt=1.6.1
+[0m21:36:42.333397 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\kerry\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:36:42.334373 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\E\dbt_core_jaffle_shop\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+
+[0m21:36:42.335372 [debug] [MainThread]: Command `dbt docs generate` failed at 21:36:42.335372 after 0.02 seconds
+[0m21:36:42.336387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296FEFDE830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002968195B3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002968195B700>]}
+[0m21:36:42.337374 [debug] [MainThread]: Flushing usage events
+[0m21:44:25.756521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6C6D7E890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6C5E7B700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6C5E7B4C0>]}
+
+
+============================== 21:44:25.761523 | 237a8a94-b0fe-4427-a05e-5408781d7dd3 ==============================
+[0m21:44:25.761523 [info ] [MainThread]: Running with dbt=1.6.1
+[0m21:44:25.762524 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\kerry\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt docs generate', 'send_anonymous_usage_stats': 'True'}
+[0m21:44:25.763524 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\E\dbt_core_jaffle_shop\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:44:25.764524 [debug] [MainThread]: Command `dbt docs generate` failed at 21:44:25.764524 after 0.02 seconds
+[0m21:44:25.765524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6C6D7E890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6C5E7B430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6C5E7B760>]}
+[0m21:44:25.765524 [debug] [MainThread]: Flushing usage events

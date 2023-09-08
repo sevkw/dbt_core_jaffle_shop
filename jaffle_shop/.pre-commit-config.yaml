@@ -1,0 +1,23 @@
+default_stages: [commit]
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-yaml
+        exclude: ^docs|/target/
+      - id: end-of-file-fixer
+        exclude: ^docs|/target/
+      - id: trailing-whitespace
+        exclude: ^docs|/target/
+  - repo: https://github.com/dbt-checkpoint/dbt-checkpoint
+    rev: v1.1.0
+    hooks:
+    - id: check-script-semicolon
+    - id: dbt-test
+    - id: dbt-docs-generate
+    - id: replace-script-table-names
+    - id: check-macro-has-description
+    - id: check-model-has-all-columns
+    - id: check-model-has-description
