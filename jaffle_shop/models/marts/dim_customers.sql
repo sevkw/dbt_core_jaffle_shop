@@ -21,4 +21,5 @@ WITH customer_orders AS (
         , COALESCE(customer_orders.number_of_orders, 0) AS number_of_orders
 
     FROM {{ ref('stg_customers') }} AS customers
+
     LEFT JOIN customer_orders USING (customer_id)
