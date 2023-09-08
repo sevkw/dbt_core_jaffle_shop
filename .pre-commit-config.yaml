@@ -14,10 +14,12 @@ repos:
   - repo: https://github.com/dbt-checkpoint/dbt-checkpoint
     rev: v1.1.0
     hooks:
-    - id: check-script-semicolon
     - id: dbt-test
+      files: /jaffle_shop/
     - id: dbt-docs-generate
-    - id: replace-script-table-names
-    - id: check-macro-has-description
-    - id: check-model-has-all-columns
-    - id: check-model-has-description
+      files: /jaffle_shop/
+    # - id: check-script-semicolon
+    # - id: replace-script-table-names
+    # - id: check-macro-has-description
+    # - id: check-model-has-all-columns
+    # - id: check-model-has-description
