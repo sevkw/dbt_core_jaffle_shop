@@ -52,5 +52,14 @@ I tried following the tutorial from start to end, but I realized some parts are 
 
 I used the following docs to help me get through:
 
-1. Setting up `profiles.yml` for BigQuery Service Account: https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup
+1. Setting up `profiles.yml` for BigQuery Service Account [guide here](https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup)
 2. Always ensure you create a new dataset in your BigQuery Project named `<dbt_yourname>` before running dbt debug
+
+# 🕵️Quality Assurance
+
+## 🎰Pre-commit Hooks
+
+In real practice, it is always recommended to use pre-commit hooks to help checking the quality of each dbt project commit.
+In this guide [here](https://docs.getdbt.com/guides/best-practices/how-we-style/6-how-we-style-conclusion#pre-commit-hooks), the dbt Labs recommends the use pre-commit hooks in your project. [pre-commit hook](https://pre-commit.com/) and [dbt-checkpoint ](https://github.com/dbt-checkpoint/dbt-checkpoint) are the recommended hooks to use.
+
+At a quick glance, pre-commit has a general focus in checking the formatting of codes, while dbt-checkpoint has more dbt tweaks in checking whether each commit contains required items such as whether each model always has a description.
