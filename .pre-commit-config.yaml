@@ -11,11 +11,13 @@ repos:
         exclude: ^docs|/target/
       - id: trailing-whitespace
         exclude: ^docs|/target/
-  # - repo: https://github.com/dbt-checkpoint/dbt-checkpoint
-  #   rev: v1.1.0
-  #   hooks:
+  - repo: https://github.com/dbt-checkpoint/dbt-checkpoint
+    rev: v1.1.0
+    hooks:
+    - id: dbt-run
+      args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "-model-postfix", "+", "-"]
     # - id: dbt-compile
-      # args: ["--cmd-flags", ".", "++profiles-dir"]
+    #   args: ["--cmd-flags", ".", "++profiles-dir"]
     # - id: dbt-test
     #   args: ["--model-postfix", "+", "--"]
     # - id: dbt-docs-generate
