@@ -15,9 +15,9 @@ repos:
     rev: v1.1.0
     hooks:
     - id: dbt-compile
-      args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "-model-postfix", "+", "-"]
+      args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "--model-postfix", "+", "-"]
     - id: dbt-run
-      args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "-model-postfix", "+", "-"]
+      args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "--model-postfix", "+", "-"]
     #   args: ["--cmd-flags", ".", "++profiles-dir"]
     # - id: dbt-test
     #   args: ["--model-postfix", "+", "--"]
