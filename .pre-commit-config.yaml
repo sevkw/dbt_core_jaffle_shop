@@ -18,11 +18,12 @@ repos:
       args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "--model-postfix", "+", "-"]
     - id: dbt-run
       args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "--model-postfix", "+", "-"]
-    #   args: ["--cmd-flags", ".", "++profiles-dir"]
-    # - id: dbt-test
-    #   args: ["--model-postfix", "+", "--"]
-    # - id: dbt-docs-generate
-    # - id: check-script-semicolon
+    - id: dbt-test
+      args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target", "--model-postfix", "+", "-"]
+    - id: dbt-docs-generate
+      args: ["--cmd-flags", "++project-dir", "jaffle_shop", "++target-path", "jaffle_shop/target"]
+    - id: check-script-semicolon
+      args: ["--manifest", "jaffle_shop/target/manifest.json"]
     # - id: replace-script-table-names
     # - id: check-macro-has-description
     # - id: check-model-has-all-columns
