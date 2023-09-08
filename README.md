@@ -63,3 +63,5 @@ In real practice, it is always recommended to use pre-commit hooks to help check
 In this guide [here](https://docs.getdbt.com/guides/best-practices/how-we-style/6-how-we-style-conclusion#pre-commit-hooks), the dbt Labs recommends the use pre-commit hooks in your project. [pre-commit hook](https://pre-commit.com/) and [dbt-checkpoint ](https://github.com/dbt-checkpoint/dbt-checkpoint) are the recommended hooks to use.
 
 At a quick glance, pre-commit has a general focus in checking the formatting of codes, while dbt-checkpoint has more dbt tweaks in checking whether each commit contains required items such as whether each model always has a description.
+
+[Here](https://pre-commit.com/hooks.html) is a list of the pre-commit hook ids
