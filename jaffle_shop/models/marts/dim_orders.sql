@@ -8,6 +8,7 @@ SELECT
     , COALESCE(op.{{ payment_method }}_amount, 0) AS {{ payment_method }}_amount
     {% endfor %}
     , COALESCE(op.total_amount, 0) AS total_amount
+
 FROM {{ ref('stg_orders') }} AS o
 LEFT JOIN {{ ref('int_payments_pivoted_to_orders') }} AS op
     ON o.order_id = op.order_id
