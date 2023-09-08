@@ -1,7 +1,7 @@
 default_stages: [commit]
 
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: local
     rev: v3.4.0
     hooks:
       - id: check-merge-conflict
