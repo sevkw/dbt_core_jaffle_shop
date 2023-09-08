@@ -8,7 +8,6 @@ WITH customer_orders AS (
         , SUM(total_amount) AS lifetime_value
 
     FROM {{ ref('dim_orders') }}
-
     GROUP BY 1
 
 )
