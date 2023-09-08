@@ -9,13 +9,13 @@ The **dbt-core** tutorial offered by DBT Lab are quick and basic to get you expe
 Here are the resources I found helpful and I recommend **follow them in order**:
 
 1. Finish setting up the dbt-core project on your local machine following [this guide](https://docs.getdbt.com/quickstarts/manual-install?step=1)
-   
+
 2. Read the dbt best practices page and improve your `jaffle_shop` dbt project following [this guide](https://docs.getdbt.com/guides/best-practices)
     - at the end, your `jaffle_shop` project should look a lot different from the version you have upon finishing step 1
     - recommending reading the best practices guide first before following along with coding in the dbt project as the guide is just a guide but not a hard subscription. This means you get to make the decision on how to format and organize your project.
       - for example: in the organization section the guide started off introducing a staging >> intermediate >> mart, but later on recommended a [semantic layer practice](https://docs.getdbt.com/guides/best-practices/how-we-structure/5-semantic-layer-marts). **For my project here, I use the semantic layer structure to organize my files (as my current company also follows this strictly)**
-  
-3. Take a step back and reflect. What are the improvements can you make? Add some personal tweaks to the project. 
+
+3. Take a step back and reflect. What are the improvements can you make? Add some personal tweaks to the project.
 
 # :moon:Virtual Environment
 
@@ -23,7 +23,7 @@ For this project, I used poetry to create my virtual environment and manage all 
 It is always recommended to use virtual environment on your project.
 For more information on poetry, see [here](https://python-poetry.org/docs/basic-usage/)
 
-I found this [YouTube video](https://youtu.be/0f3moPe_bhk?feature=shared) to be the best in demoing poetry, if you find the poetry documentation boring ;) 
+I found this [YouTube video](https://youtu.be/0f3moPe_bhk?feature=shared) to be the best in demoing poetry, if you find the poetry documentation boring ;)
 
 # :spider:Data
 
@@ -64,4 +64,4 @@ In this guide [here](https://docs.getdbt.com/guides/best-practices/how-we-style/
 
 At a quick glance, pre-commit has a general focus in checking the formatting of codes, while dbt-checkpoint has more dbt tweaks in checking whether each commit contains required items such as whether each model always has a description.
 
-[Here](https://pre-commit.com/hooks.html) is a list of the pre-commit hook ids
+[Here](https://pre-commit.com/hooks.html) is a list of the pre-commit hook ids.
